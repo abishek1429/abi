@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 100px;
+    width:100px;
+}
+.content{
+    width: 300px;
+}
+section{
+    display: flex;
+}
+@media  screen and (min-width:0px) and (max-width:400px) {
+    img{
+        width: 300px;
+    }
+    .content{
+        background-color: aqua;
+    }
+}

@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.continer{
+    display: grid;
+    place-content: center;
+    
+}
+.balls{
+    width: 400px;
+    height: 500px;
+    border-bottom: 5px solid black;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    
+}
+.ball{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    animation:bounce 2s linear infinite;
+}
+.ball:nth-child(2){
+    animation-delay: 0.3s;
+}
+.ball:nth-child(3){
+    animation-delay: 0.5s;
+}
+.ball:nth-child(4){
+    animation-delay: 0.9s;
+}
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0);
+        background:linear-gradient(red,green,gray);
+    }
+    50%{
+        transform: translateY(-600%);
+        background:linear-gradient(red,black,yellow);
+    }
+    100%{
+        transform: translateY(0);
+        background:linear-gradient(skyblue,white,black);
+    }
+}

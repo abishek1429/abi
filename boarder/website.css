@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/975/421/110/windows-10-black-4k-8k-wallpaper-preview.jpg");
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhhUd-zqx_GWQtIaLAAnEdC8J75WYewuwDIdm6mxdZsrouhldYMO1PeeO1AG-DM3LjngQ&usqp=CAU");
+    background-repeat:no-repeat; */
+    background-size:cover;
+}
+.container{
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.card{
+    padding: 60px 40px 50px 40px;
+    background-image: linear-gradient(rgb(52, 139, 51),rgb(183, 17, 25),rgb(208, 230, 10));
+    border-radius: 10px;
+}
+#name{
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: solid white;
+    padding:6px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+#button{
+    border:20px;
+    padding:10px 20px;
+    color: black;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+#button:hover{
+    background-color: aqua;
+    color: brown;
+}
+a{
+    font-size: 13px;
+}
+img{
+    border-radius: 50%;
+    position:absolute;
+    margin-left: 110px;
+    margin-top: -40px;
+}
+

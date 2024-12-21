@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 40px;
+    /* border: solid; */
+    display: flex;
+    margin: 20px;
+}
+.nav1{
+    height: inherit;
+    /* border: solid; */
+    flex: 40%;
+    display: flex;
+    align-items: center;
+}
+.nav2{
+    display: flex;
+    height: inherit;
+/* border: solid;     */
+    flex: 60%;
+
+}
+nav .logo{
+    flex-basis: 50%;
+}
+nav .content{
+    flex-basis: 50%;
+}
+nav .content > input{
+    width: 250px;
+    height: 30px;
+    padding-left: 40px;
+}
+nav .content > i{
+    position: relative;
+    left: 30px;
+    top: 3px;
+}
+.downloade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    /* height: inherit; */
+   
+  
+}
+.nav2 > aside{
+    flex-basis: 35%;
+    /* border: solid ; */
+    border-right: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.nav2 > .details{
+    justify-content: space-around;
+    text-align: center;
+}
+p{
+    cursor: pointer;
+}
+.downloade:hover,.profile:hover,.cart:hover,.icon:hover,.supplier:hover{
+ border-bottom: 3px solid purple;
+ font-weight: 900;
+ color: purple;
+}
+.second{
+    border:3px solid;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.second> p{
+
+    margin: 20px;
+    padding: 10px;
+
+}
+.second> p:hover{
+    border-bottom: 3px solid purple;
+    font-weight: 900;
+    color: purple;
+}

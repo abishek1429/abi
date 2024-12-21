@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing:border-box ;
+}
+/* section{
+    height: 50px;
+    width:150px;
+    background-color: rgb(252, 35, 7);
+    border: solid;
+}
+#one{
+    position: fixed;
+    top: 20px;
+    left: 50px;
+}
+div{
+    width: 75px;
+    height: 25px;
+    position: sticky;
+    background-color: aqua;
+}
+#two{
+    background-color: blue;
+} */

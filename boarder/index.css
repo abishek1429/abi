@@ -1,0 +1,20 @@
+
+    /* height: 150px;
+    width: 150px;
+   border:5px; 
+   border-style:dashed;
+   border-color: chartreuse;
+   border-radius: 100%; */
+
+img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border-color: black;
+    border-style: dotted;
+
+}
+button{
+    border-radius: 100%;
+}

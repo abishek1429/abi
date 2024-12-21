@@ -1,0 +1,13 @@
+section{
+    height: 22px;
+    width: 200px;
+    border: solid;
+
+}
+div{
+
+    height: 500px;
+    width: 500px;
+    border: solid;
+    display: inline;
+}

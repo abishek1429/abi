@@ -1,0 +1,27 @@
+
+section{
+    height: 250px;
+    width: 300px;
+    border: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+article{
+    height: 50px;
+    width: 50px;
+    
+}
+#article1{
+    background-color: rgb(255, 0, 68);
+    flex-grow: 50%;
+}
+#article2{
+    background-color: rgb(13, 244, 52);
+    flex-grow: 20%;
+}
+#article3{
+    background-color: rgb(253, 8, 216);
+    flex-grow: 30%;
+}

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 0, 0);
+    animation-name: colorchange;
+    animation-duration: 10;
+    animation-timing-function: ease;
+    animation-iteration-count: 100;
+}
+@keyframe colorchange{
+
+    }

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes colorchange{
+    from{
+        background-color: red;
+        border-radius: 0%;
+        transform:translateX(20px);
+
+    }
+    to{
+        background-color: blue;
+        border-radius: 0%;
+        transform:translateX(20px) ;
+    }
+
+}

@@ -1,0 +1,72 @@
+style{
+    padding: 10px;
+    margin-left: 2px;
+    box-sizing: border-box;
+}
+#food1{
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/236x/b4/9b/c6/b49bc689e953d83d8b858b2dfc98bab8.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 4px;
+} 
+#food2{
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/236x/1e/68/91/1e6891d050af81a19ebe86064914a3fe.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 4px;
+} 
+#food3{
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/236x/7b/b8/e6/7bb8e65c8f07e794beae57c1b2b1f315.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 4px;
+} 
+#food4{
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/474x/28/38/af/2838af0bd12dd22ebef14cbc6cf6d7cc.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 4px;
+} 
+#food5{
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/236x/ec/a9/56/eca9561df15ff6367a899a92d31a4ee5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 4px;
+} 
+#food6{
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/236x/20/90/51/2090510b4bab42b539f513ee2581448f.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 4px;
+} 
+#food7{
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/236x/84/43/7a/84437aeab688878ae6fdd470aa379683.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 4px;
+} 
+#food8{
+    height: 150px;
+    width: 150px;
+    background-image: url("https://i.pinimg.com/236x/35/4b/5e/354b5e0f02ce428faab493491a6ea9ae.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 5px 4px;
+} 
+.align{
+    display: flex;
+}
